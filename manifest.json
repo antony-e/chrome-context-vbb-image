@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "VBBulletin Image Code Creator",
+  "version": "1.0",
+  "description": "Adds a context menu to Chrome which allows you to generate VBB code for a linked image, to paste into your own posts.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "offscreen",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
